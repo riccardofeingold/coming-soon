@@ -38,6 +38,8 @@ function updateLinkyMemberNum() {
 
   document.getElementById("linky-members").innerHTML = num;
 
+  document.getElementById("mc-embedded-subscribe-form").style.display = 'none';
+
   document.getElementById("fat-header-title").innerHTML = "Thank You!"
   document.getElementById("fat-header-title").style.textAlign = 'center';
 
