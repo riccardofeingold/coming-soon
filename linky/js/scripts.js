@@ -5,10 +5,9 @@
 */
 //
 // Scripts
-// 
+//
 
 window.addEventListener('DOMContentLoaded', event => {
-
     // Activate Bootstrap scrollspy on the main nav element
     const mainNav = document.body.querySelector('#mainNav');
     if (mainNav) {
@@ -32,3 +31,18 @@ window.addEventListener('DOMContentLoaded', event => {
     });
 
 });
+
+function updateLinkyMemberNum() {
+  var num = Number(document.getElementById("linky-members").innerHTML);
+  num += 1;
+
+  document.getElementById("linky-members").innerHTML = num;
+
+  document.getElementById("mc_embed_signup").style.display = 'none';
+
+  document.getElementById("fat-header-title").innerHTML = "Thank You!"
+  document.getElementById("fat-header-title").style.textAlign = 'center';
+
+  document.getElementById("becoming-linky-member").innerHTML = "Best Regards, Linky Team";
+  document.getElementById("becoming-linky-member").style.textAlign = 'center';
+}
