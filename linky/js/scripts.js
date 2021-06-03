@@ -43,6 +43,7 @@ function updateLinkyMemberNum() {
   document.getElementById("fat-header-title").innerHTML = "Thank You!"
   document.getElementById("fat-header-title").style.textAlign = 'center';
 
-  document.getElementById("becoming-linky-member").innerHTML = "Best Regards, Linky Team";
-  document.getElementById("becoming-linky-member").style.textAlign = 'center';
+  document.getElementById("becoming-linky-member-text").innerHTML = "Best Regards, Linky Team";
+  document.getElementById("becoming-linky-member-text").style.textAlign = 'center';
+  document.getElementById("becoming-linky-member-num").style.display = 'none';
 }
